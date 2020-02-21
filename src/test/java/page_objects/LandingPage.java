@@ -15,6 +15,8 @@ public class LandingPage extends BasePage {
     private By submitButton = By.xpath("//button[@name='websubmit']");
     private By genderError = By.xpath("//div[starts-with(text(),'Please choose a gender')]");
     private By messengerLink = By.linkText("Messenger");
+    private By maleLocator = By.xpath("//input[@type='radio' and @value='2']");
+
 
     //Methods
     public void enterEmail(String value){
@@ -55,5 +57,13 @@ public class LandingPage extends BasePage {
 
     public void clickMessengerLink() {
         clickOn(messengerLink);
+    }
+
+    public void selectMaleGender() {
+        clickOn(maleLocator);
+    }
+
+    public boolean isMaleSelected() {
+        return isElementDisplayed(maleLocator);
     }
 }
