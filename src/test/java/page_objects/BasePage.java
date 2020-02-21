@@ -18,7 +18,6 @@ public class BasePage {
         return DriverWrapper.getDriver().findElement(locator).getText();
     }
 
-
     public boolean isElementDisplayed(By locator) {
         boolean isDisplayed;
         try {
@@ -29,3 +28,4 @@ public class BasePage {
         return isDisplayed;
     }
 }
+

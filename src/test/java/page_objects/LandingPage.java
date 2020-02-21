@@ -66,4 +66,9 @@ public class LandingPage extends BasePage {
     public boolean isMaleSelected() {
         return isElementDisplayed(maleLocator);
     }
+
+    public boolean isLoginButtonDisplayed() {
+        return isElementDisplayed(loginButton);
+
+    }
 }
