@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df3046e2-1004-4215-a237-0e15da832e0d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_scripts/VerifyBirthDay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_scripts/VerifyLoginButtonDisplayed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page_objects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_objects/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page_objects/LandingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_objects/LandingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page_objects/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page_objects/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/page_objects/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page_objects/LandingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test_scripts/VerifyInvalidLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test_scripts/VerifyInvalidLogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_scripts/VerifyLoginButtonDisplayed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_scripts/VerifyLoginButtonDisplayed.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="VerifyLoginButtonDisplayed.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VerifyLoginButtonDisplayed.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/VerifyLoginButtonDisplayed.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1798">
-              <caret line="62" column="3" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
+            <state relative-caret-position="85">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,10 +28,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="LandingPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/page_objects/LandingPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
+            <state relative-caret-position="-7">
               <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
               <folding>
                 <element signature="e#618#619#0" expanded="true" />
@@ -48,7 +49,7 @@
       <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/page_objects/BasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
+            <state relative-caret-position="-7">
               <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
             </state>
           </provider>
@@ -57,7 +58,7 @@
       <file leaf-file-name="VerifyBirthDay.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/VerifyBirthDay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
+            <state relative-caret-position="-7">
               <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -86,6 +87,7 @@
         <option value="$PROJECT_DIR$/src/test/java/page_objects/LandingPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/test_scripts/VerifyBirthDay.java" />
         <option value="$PROJECT_DIR$/src/test/java/test_scripts/VerifyLoginButtonDisplayed.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -97,10 +99,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="71" />
     <option name="y" value="23" />
-    <option name="width" value="1333" />
-    <option name="height" value="760" />
+    <option name="width" value="1440" />
+    <option name="height" value="812" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -393,7 +394,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1501" y="23" width="1796" height="980" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -409,7 +410,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.16703786" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16666667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -451,14 +452,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/page_objects/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
+        <state relative-caret-position="-7">
           <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/VerifyBirthDay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
+        <state relative-caret-position="-7">
           <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -468,7 +469,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/page_objects/LandingPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
+        <state relative-caret-position="-7">
           <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
           <folding>
             <element signature="e#618#619#0" expanded="true" />
@@ -479,13 +480,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/VerifyLoginButtonDisplayed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1798">
-          <caret line="62" column="3" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

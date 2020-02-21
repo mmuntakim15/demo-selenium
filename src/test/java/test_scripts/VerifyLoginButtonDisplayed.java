@@ -1,7 +1,5 @@
 package test_scripts;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import page_objects.LandingPage;
