@@ -7,7 +7,7 @@ public class LandingPage extends BasePage {
     //Locators
     private By emailTextField = By.id("email");
     private By passTextField = By.id("pass");
-    private By loginButton = By.id("loginbutton");
+    private By loginButton = By.id("submit");
     private By firstname = By.id("");
 
     //Methods
@@ -21,5 +21,9 @@ public class LandingPage extends BasePage {
 
     public void clickLoginButton() {
         clickOn(loginButton);
+    }
+
+    public boolean isLoginButtonDisplayed() {
+        return isElementDisplayed(loginButton);
     }
 }
