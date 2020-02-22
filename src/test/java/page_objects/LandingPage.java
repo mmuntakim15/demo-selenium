@@ -2,6 +2,10 @@ package page_objects;
 
 import org.openqa.selenium.By;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Map;
+
 public class LandingPage extends BasePage {
 
     //Locators
@@ -16,6 +20,7 @@ public class LandingPage extends BasePage {
     private By genderError = By.xpath("//div[starts-with(text(),'Please choose a gender')]");
     private By messengerLink = By.linkText("Messenger");
     private By maleLocator = By.xpath("//input[@type='radio' and @value='2']");
+    private By monthLocator = By.id("month");
 
 
     //Methods
@@ -69,6 +74,28 @@ public class LandingPage extends BasePage {
 
     public boolean isLoginButtonDisplayed() {
         return isElementDisplayed(loginButton);
-
     }
+
+    public void selectMonth(String monthValue) {
+        String month = monthValue;
+        if(monthValue.equalsIgnoreCase("current")) {
+            SimpleDateFormat monthFormat = new SimpleDateFormat("MMM");
+            Date now = new Date();
+            month = monthFormat.format(now);
+        }
+        selectByTextFromDropDown(monthLocator, month);
+    }
+
+    public boolean checkMonthContainsDuplicate() {
+        Map<String, Integer> ifDuplicates = isDropdownHasDuplicates(monthLocator);
+        boolean hasDuplicates = false;
+        if (ifDuplicates.size() > 0) {
+            System.out.println("Duplicates: " + ifDuplicates);
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+
 }
