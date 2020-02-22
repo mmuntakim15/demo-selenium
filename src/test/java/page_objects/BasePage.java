@@ -26,7 +26,13 @@ public class BasePage {
     }
 
     public boolean isElementDisplayed(By locator) {
-        return DriverWrapper.getDriver().findElement(locator).isDisplayed();
+        boolean isDisplayed;
+        try {
+            isDisplayed = DriverWrapper.getDriver().findElement(locator).isDisplayed();
+        } catch (NoSuchElementException e) {
+            isDisplayed = false;
+        }
+        return isDisplayed;
     }
 
     public boolean isElementSelected(By locator) {
