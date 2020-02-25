@@ -9,6 +9,7 @@ public class DriverWrapper {
 
     private static WebDriver driver;
     private static String url = "https://www.facebook.com/";
+    private static String alertUrl = "https://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt";
 
     @BeforeClass
     public void beforeClass() {
@@ -33,5 +34,13 @@ public class DriverWrapper {
 
     public static String getUrl() {
         return url;
+    }
+
+    public static void syncWait(int ms) {
+        try {
+            Thread.sleep(ms);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 }
