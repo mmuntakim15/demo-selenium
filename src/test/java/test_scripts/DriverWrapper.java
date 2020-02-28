@@ -8,7 +8,8 @@ import org.testng.annotations.BeforeClass;
 public class DriverWrapper {
 
     private static WebDriver driver;
-    private static String url = "https://www.facebook.com/";
+    // private static String url = "https://www.facebook.com/";
+    private static String url = "https://www.amazon.com/";
     private static String alertUrl = "https://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt";
 
     @BeforeClass

@@ -1,6 +1,7 @@
 package page_objects;
 
 import org.openqa.selenium.By;
+import test_scripts.DriverWrapper;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -21,6 +22,7 @@ public class LandingPage extends BasePage {
     private By messengerLink = By.linkText("Messenger");
     private By maleLocator = By.xpath("//input[@type='radio' and @value='2']");
     private By monthLocator = By.id("month");
+    private By emailError = By.xpath("//input[text()='Please enter valid'");
 
 
     //Methods
@@ -87,6 +89,7 @@ public class LandingPage extends BasePage {
     }
 
     public boolean checkMonthContainsDuplicate() {
+        //{(feb, 2) , (mar,3)}    {}
         Map<String, Integer> ifDuplicates = isDropdownHasDuplicates(monthLocator);
         boolean hasDuplicates = false;
         if (ifDuplicates.size() > 0) {
@@ -95,6 +98,10 @@ public class LandingPage extends BasePage {
         } else {
             return false;
         }
+    }
+
+    public boolean isInvalidEmailErrorDisplayed() {
+        return DriverWrapper.getDriver().findElement(emailError).isDisplayed();
     }
 
 

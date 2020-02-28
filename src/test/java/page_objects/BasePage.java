@@ -62,6 +62,8 @@ public class BasePage {
     }
 
     public Map<String,Integer> isDropdownHasDuplicates(By locator) {
+        //Planned to result to show up like below:
+        //{(feb,2), (mar-3)}
         WebElement dropDownElement = DriverWrapper.getDriver().findElement(locator);
         Select dropDown = new Select(dropDownElement);
         List<WebElement> allOptionsElements = dropDown.getOptions();
@@ -72,6 +74,7 @@ public class BasePage {
         }
 
         Map<String, Integer> duplicates = new HashMap<>();
+        //{jan, feb, mar, feb, mar,}
         for (int i=0 ; i < allValues.size()-1 ; i++) {
             int count=1;
             String val = allValues.get(i);
@@ -100,6 +103,10 @@ public class BasePage {
             allValues.add(option.getText().toLowerCase());
         }
         return allValues.contains(valueToCheck.toLowerCase());
+    }
+
+    public List<WebElement> getElements(By locator) {
+        return DriverWrapper.getDriver().findElements(locator);
     }
 
 }
