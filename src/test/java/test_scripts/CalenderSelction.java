@@ -33,5 +33,13 @@ public class CalenderSelction extends DriverWrapper{
 
 
     }
-
 }
+
+/**
+ * 1. Check if alert displayed? if yes then click on X button
+ *    (Hint: Look for alert X button locator)
+ * 2. Get focused month locator and strip out the text
+ *    - Get current month as display month format and store it as String data type
+ *    - Compare currentMonth from system for focused month from web page
+ *      (If they are not equal then click on back button (Find back button locator))
+ */

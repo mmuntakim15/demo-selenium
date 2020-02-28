@@ -1,34 +1,57 @@
 package page_objects;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebElement;
+import com.gargoylesoftware.htmlunit.ElementNotFoundException;
+import com.google.common.base.Function;
+import org.openqa.selenium.*;
+import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.Wait;
 import test_scripts.DriverWrapper;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 public class BasePage {
 
+    // This is the most common wait function used in selenium
+    public static WebElement webAction(final By locator) {
+        Wait<WebDriver> wait = new FluentWait<WebDriver>(DriverWrapper.getDriver())
+                .withTimeout(15, TimeUnit.SECONDS)
+                .pollingEvery(1, TimeUnit.SECONDS)
+                .ignoring(NoSuchElementException.class)
+                .ignoring(StaleElementReferenceException.class)
+                .ignoring(ElementNotFoundException.class)
+                .withMessage(
+                        "Webdriver waited for 15 seconds but still could not find the element therefore Timeout Exception has been thrown");
+
+        WebElement element = wait.until(new Function<WebDriver, WebElement>() {
+            public WebElement apply(WebDriver driver) {
+                return driver.findElement(locator);
+            }
+        });
+
+        return element;
+    }
+
     public void clickOn(By locator) {
-        DriverWrapper.getDriver().findElement(locator).click();
+        webAction(locator).click();
     }
 
     public void setValue(By locator, String value) {
-        DriverWrapper.getDriver().findElement(locator).sendKeys(value);
+        webAction(locator).sendKeys(value);
     }
 
     public String getValueFromElement(By locator) {
-        return DriverWrapper.getDriver().findElement(locator).getText();
+        return webAction(locator).getText();
     }
 
     public boolean isElementDisplayed(By locator) {
         boolean isDisplayed;
         try {
-            isDisplayed = DriverWrapper.getDriver().findElement(locator).isDisplayed();
+            isDisplayed = webAction(locator).isDisplayed();
         } catch (NoSuchElementException e) {
             isDisplayed = false;
         }

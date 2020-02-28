@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df3046e2-1004-4215-a237-0e15da832e0d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_scripts/VerifyAlert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_scripts/VerifyWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_scripts/HoverOverScenario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_scripts/WaitExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page_objects/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_objects/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_scripts/CalenderSelction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_scripts/CalenderSelction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test_scripts/DriverWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_scripts/DriverWrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/page_objects/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page_objects/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page_objects/LandingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page_objects/LandingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test_scripts/DriverWrapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test_scripts/DriverWrapper.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,14 +47,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VerifyAlert.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/VerifyAlert.java">
+      <file leaf-file-name="WaitExamples.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/WaitExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="203">
+              <caret line="21" selection-start-line="21" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1311#1312#0" expanded="true" />
+                <element signature="e#1377#1378#0" expanded="true" />
+                <element signature="e#1626#1627#0" expanded="true" />
+                <element signature="e#1690#1691#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BasePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/page_objects/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+              <folding>
+                <element signature="e#1286#1287#0" expanded="true" />
+                <element signature="e#1352#1353#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
+                <element signature="e#1530#1531#0" expanded="true" />
+                <element signature="e#1580#1581#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#2014#2015#0" expanded="true" />
+                <element signature="e#2096#2097#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="29">
+              <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -71,7 +110,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/test_scripts/BooleanActions.java" />
         <option value="$PROJECT_DIR$/src/test/java/test_scripts/VerifyLoginButtonDisplayed.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/test_scripts/VerifyDropdownContainsDuplicates.java" />
         <option value="$PROJECT_DIR$/src/test/java/page_objects/LandingPage.java" />
         <option value="$USER_HOME$/Downloads/MaxV.java" />
@@ -80,10 +118,14 @@
         <option value="$USER_HOME$/Downloads/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/test_scripts/VerifyUserSelectsCurrentMonth.java" />
         <option value="$PROJECT_DIR$/src/test/java/test_scripts/VerifyBirthDay.java" />
-        <option value="$PROJECT_DIR$/src/test/java/page_objects/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/test_scripts/VerifyWindow.java" />
-        <option value="$PROJECT_DIR$/src/test/java/test_scripts/DriverWrapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/test_scripts/VerifyAlert.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test_scripts/CalenderSelction.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test_scripts/DriverWrapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test_scripts/HoverOverScenario.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test_scripts/WaitExamples.java" />
+        <option value="$PROJECT_DIR$/src/test/java/page_objects/BasePage.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -106,6 +148,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,6 +180,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="page_objects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo-selenium" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo-selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="test_scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -145,7 +196,6 @@
       </pane>
       <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.VerifyInvalidLogin.verifyInvalidLogin">
+  <component name="RunManager" selected="TestNG.WaitExamples.clickOnUsername">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method>
@@ -191,7 +241,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyAlert.verifyAlert" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HoverOverScenario.hoverOver" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo-selenium" />
       <extension name="coverage">
         <pattern>
@@ -203,8 +253,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="test_scripts" />
-      <option name="MAIN_CLASS_NAME" value="test_scripts.VerifyAlert" />
-      <option name="METHOD_NAME" value="verifyAlert" />
+      <option name="MAIN_CLASS_NAME" value="test_scripts.HoverOverScenario" />
+      <option name="METHOD_NAME" value="hoverOver" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
@@ -220,7 +270,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="VerifyDropdownContainsDuplicates.verifyDuplicatesInMonth" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyAlert.verifyAlert" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo-selenium" />
       <extension name="coverage">
         <pattern>
@@ -232,8 +282,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="test_scripts" />
-      <option name="MAIN_CLASS_NAME" value="test_scripts.VerifyDropdownContainsDuplicates" />
-      <option name="METHOD_NAME" value="verifyDuplicatesInMonth" />
+      <option name="MAIN_CLASS_NAME" value="test_scripts.VerifyAlert" />
+      <option name="METHOD_NAME" value="verifyAlert" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
@@ -278,7 +328,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="VerifyUserSelectsCurrentMonth.verifyUserSelectsCurrentMonth" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyWindow.testWindow" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo-selenium" />
       <extension name="coverage">
         <pattern>
@@ -290,8 +340,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="test_scripts" />
-      <option name="MAIN_CLASS_NAME" value="test_scripts.VerifyUserSelectsCurrentMonth" />
-      <option name="METHOD_NAME" value="verifyUserSelectsCurrentMonth" />
+      <option name="MAIN_CLASS_NAME" value="test_scripts.VerifyWindow" />
+      <option name="METHOD_NAME" value="testWindow" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
@@ -307,7 +357,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="VerifyWindow.testWindow" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WaitExamples.clickOnUsername" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="demo-selenium" />
       <extension name="coverage">
         <pattern>
@@ -319,8 +369,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="test_scripts" />
-      <option name="MAIN_CLASS_NAME" value="test_scripts.VerifyWindow" />
-      <option name="METHOD_NAME" value="testWindow" />
+      <option name="MAIN_CLASS_NAME" value="test_scripts.WaitExamples" />
+      <option name="METHOD_NAME" value="clickOnUsername" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" />
@@ -362,19 +412,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.VerifyUserSelectsCurrentMonth.verifyUserSelectsCurrentMonth" />
-      <item itemvalue="TestNG.VerifyDropdownContainsDuplicates.verifyDuplicatesInMonth" />
       <item itemvalue="TestNG.VerifyWindow.testWindow" />
       <item itemvalue="TestNG.VerifyAlert.verifyAlert" />
       <item itemvalue="TestNG.VerifyInvalidLogin.verifyInvalidLogin" />
+      <item itemvalue="TestNG.HoverOverScenario.hoverOver" />
+      <item itemvalue="TestNG.WaitExamples.clickOnUsername" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WaitExamples.clickOnUsername" />
+        <item itemvalue="TestNG.HoverOverScenario.hoverOver" />
         <item itemvalue="TestNG.VerifyInvalidLogin.verifyInvalidLogin" />
         <item itemvalue="TestNG.VerifyAlert.verifyAlert" />
         <item itemvalue="TestNG.VerifyWindow.testWindow" />
-        <item itemvalue="TestNG.VerifyUserSelectsCurrentMonth.verifyUserSelectsCurrentMonth" />
-        <item itemvalue="TestNG.VerifyDropdownContainsDuplicates.verifyDuplicatesInMonth" />
       </list>
     </recent_temporary>
   </component>
@@ -392,15 +442,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="VerifyUserSelectsCurrentMonth_verifyUserSelectsCurrentMonth - 2020.02.22 at 14h 49m 02s.xml">
-      <configuration name="VerifyUserSelectsCurrentMonth.verifyUserSelectsCurrentMonth" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="VerifyUserSelectsCurrentMonth_verifyUserSelectsCurrentMonth - 2020.02.22 at 14h 49m 36s.xml">
-      <configuration name="VerifyUserSelectsCurrentMonth.verifyUserSelectsCurrentMonth" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="VerifyWindow_testWindow - 2020.02.24 at 18h 53m 48s.xml">
-      <configuration name="VerifyWindow.testWindow" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="VerifyAlert_verifyAlert - 2020.02.24 at 19h 03m 57s.xml">
       <configuration name="VerifyAlert.verifyAlert" configurationId="TestNG" />
     </history-entry>
@@ -422,9 +463,18 @@
     <history-entry file="VerifyInvalidLogin_verifyInvalidLogin - 2020.02.24 at 19h 18m 22s.xml">
       <configuration name="VerifyInvalidLogin.verifyInvalidLogin" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="HoverOverScenario_hoverOver - 2020.02.27 at 20h 06m 05s.xml">
+      <configuration name="HoverOverScenario.hoverOver" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="HoverOverScenario_hoverOver - 2020.02.27 at 20h 06m 29s.xml">
+      <configuration name="HoverOverScenario.hoverOver" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="WaitExamples_clickOnUsername - 2020.02.27 at 20h 23m 49s.xml">
+      <configuration name="WaitExamples.clickOnUsername" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1597" y="23" width="1653" height="981" extended-state="0" />
+    <frame x="1475" y="24" width="1809" height="964" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -435,24 +485,44 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50080776" side_tool="true" weight="0.3296875" />
       <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.30674157" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3296875" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3076075" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919224" weight="0.3296875" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19298245" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19789939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5494382" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39911798" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Designer" order="2" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49919224" weight="0.3296875" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3296875" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3076075" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39911798" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50080776" side_tool="true" weight="0.3296875" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3296875" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19298245" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -464,6 +534,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/VerifyAlert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/DriverWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/page_objects/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="783">
@@ -491,7 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/VerifyGenderSelected.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -529,9 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="333" selection-start-line="333" selection-end-line="333" />
-          <folding>
-            <element signature="e#13022#13023#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -541,16 +628,6 @@
           <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#589#590#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/DriverWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#800#801#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -577,11 +654,200 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/VerifyAlert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="261">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/DriverWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+          <folding>
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.10/testng-6.10.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page_objects/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#589#590#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page_objects/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/VerifyLoginButtonDisplayed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/VerifyGenderSelected.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/MaxV.java" />
+    <entry file="file://$USER_HOME$/Downloads/HW223.java" />
+    <entry file="file://$USER_HOME$/Downloads/NailiaB2.java" />
+    <entry file="file://$USER_HOME$/Downloads/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/VerifyDropdownContainsDuplicates.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/VerifyUserSelectsCurrentMonth.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/VerifyBirthDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/VerifyWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="754">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.5.3/selenium-remote-driver-3.5.3.jar!/org/openqa/selenium/remote/RemoteWebDriver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page_objects/LandingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+            <element signature="e#1108#1109#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/VerifyInvalidLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/HoverOverScenario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/CalenderSelction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="35" column="1" lean-forward="true" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/DriverWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/VerifyAlert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test_scripts/WaitExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="21" selection-start-line="21" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="e#1377#1378#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/page_objects/BasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+          <folding>
+            <element signature="e#1286#1287#0" expanded="true" />
+            <element signature="e#1352#1353#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#2014#2015#0" expanded="true" />
+            <element signature="e#2096#2097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
         </state>
       </provider>
     </entry>
