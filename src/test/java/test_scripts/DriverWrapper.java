@@ -11,6 +11,7 @@ public class DriverWrapper {
     // private static String url = "https://www.facebook.com/";
     private static String url = "https://www.amazon.com/";
     private static String alertUrl = "https://www.w3schools.com/js/tryit.asp?filename=tryjs_prompt";
+    private static String hotelUrl = "https://www.hotels.com/";
 
     @BeforeClass
     public void beforeClass() {
@@ -19,7 +20,7 @@ public class DriverWrapper {
         //init webdriver object
         driver = new ChromeDriver();
         //navigate to the url
-        driver.navigate().to(url);
+        driver.navigate().to(hotelUrl);
 
     }
 
